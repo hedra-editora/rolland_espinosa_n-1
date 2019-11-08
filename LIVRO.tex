@@ -14,6 +14,7 @@
 \usepackage{tabelas}
 \usepackage{versos}
 \usepackage{gitrevisioninfo}
+\usepackage{parallel}
 
 \newcommand{\forceindent}{\leavevmode{\parindent=1,4em\indent}}
 
@@ -209,6 +210,11 @@ ItalicFont = Formular-Light.otf]
 
 \begin{document}
 
-\include{INPUTS}
+\begin{Parallel}[p]{}{} 
+\ParallelLText{\selectlanguage{french} \input{FRANCES}} 
+\ParallelRText{\setcounter{section}{0} \input{ORIGINAL}} %
+
+\renewcommand{\ParallelAtEnd}{\noindent{}\vspace{1cm}\Large{Notas}}
+\end{Parallel} 
 
 \end{document}
