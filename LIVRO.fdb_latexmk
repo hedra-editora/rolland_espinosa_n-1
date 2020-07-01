@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1592868181 "LIVRO.tex" "LIVRO.pdf" "LIVRO" 1592868184
+["pdflatex"] 1593644143 "LIVRO.tex" "LIVRO.pdf" "LIVRO" 1593644145
   "/home/edlab/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/formular-bold.luc" 1576263835 145430 7b3578e57e11d1a755424bcbaeaae888 ""
   "/home/edlab/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/formular-light.luc" 1576608809 152684 5cbc594f812d3faf720a15c1d00d440a ""
   "/home/edlab/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/formular-lightitalic.luc" 1576610006 151207 df798827b4e3c97a8cd8090075ab5dcc ""
@@ -218,10 +218,10 @@
   "/usr/share/texlive/texmf-dist/tex/plain/ifetex/ifetex.tex" 1480098846 1166 4b66ad073c6073cb1bde651c18b7dbb2 ""
   "/var/lib/texmf/tex/generic/config/language.dat" 1568390393 5068 f7f3bc7f417c156a3f8ad000ec95e50f ""
   "/var/lib/texmf/web2c/luatex/lualatex.fmt" 1568390407 1349090 037f174be86cf28c8ddf3a93c1b55c78 ""
-  "FRANCES.tex" 1581435536 17204 3546845c8b77b989c4187bf80d37a2fc ""
-  "LIVRO.aux" 1592868184 332 688cf2683f4924c73ce3abe4b460d89b ""
-  "LIVRO.tex" 1581435571 6033 7561ff380a43aa8c784e67a41ae7c432 ""
-  "ORIGINAL.tex" 1592868179 19369 3dda47677590ba57ca622cb2994e8de3 ""
+  "FRANCES.tex" 1593644021 17246 6b8279a3a52cdc16feaf505dbd5fb4c8 ""
+  "LIVRO.aux" 1593644145 332 688cf2683f4924c73ce3abe4b460d89b ""
+  "LIVRO.tex" 1592871787 6033 7561ff380a43aa8c784e67a41ae7c432 ""
+  "ORIGINAL.tex" 1593644141 19375 c3f0be32027762bdd3a60842e405e442 ""
   "PRETAS.tex" 1581435536 88 1258c95c2f568535b5c0142cb64d096e ""
   "fichatecnica.sty" 1592867700 2470 0ecc77bdee7d66b97eb0a743f29976b7 ""
   "fronthedra.tex" 1592867982 7240 2c894121cd30c5f9fdb3b4284221cf61 ""
@@ -229,7 +229,7 @@
   "gitrevisioninfo.sty" 1581435536 35 0af197c0aa797da669c01f7c129d5d63 ""
   "hedraextra.sty" 1581435536 6390 65a9b8588c7612c4e2512564697fa8c1 ""
   "hedraoptions.sty" 1581435536 3589 8bd89ff05e29672d18b6f681869b1bcc ""
-  "tipografia.sty" 1581435536 9969 4482ee9ca783c256e73b20cb46d97e8c ""
+  "tipografia.sty" 1593643815 10023 139cb71713430b6cd9823439cc7ff191 ""
   (generated)
   "LIVRO.pdf"
   "LIVRO.aux"

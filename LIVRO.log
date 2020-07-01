@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.0.4 (TeX Live 2017/Debian)  (format=lualatex 2019.9.13)  22 JUN 2020 20:23
+This is LuaTeX, Version 1.0.4 (TeX Live 2017/Debian)  (format=lualatex 2019.9.13)  1 JUL 2020 19:55
  restricted system commands enabled.
 **LIVRO.tex
 (./LIVRO.tex
@@ -34,7 +34,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.102 seconds
+luaotfload | main : initialization completed in 0.105 seconds
 Babel <3.18> and hyphenation patterns for 1 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/memoir/memoir.cls
 Document Class: memoir 2016/05/16 v3.7f configurable book, report, article docum
@@ -1203,26 +1203,31 @@ eric/fonts/otl/linlibertine-rb.luc)(load luc: /home/edlab/.texlive2017/texmf-var
 . fontspec info: "defining-font"
 . 
 . Font family 'LinuxLibertineO(0)' created for font 'Linux Libertine O' with
-. options [Ligatures=TeX].
+. options [Numbers={Proportional,OldStyle},Ligatures=TeX].
 .  
 .  This font family consists of the following NFSS series/shapes:
 .  
 . - 'normal' (m/n) with NFSS spec.:
-. <->"LinuxLibertineO:mode=node;script=latn;language=DFLT;+tlig;"
+. <->"LinuxLibertineO:mode=node;script=latn;language=DFLT;+pnum;+onum;+tlig;"
 . - 'small caps'  (m/sc) with NFSS spec.:
-. <->"LinuxLibertineO:mode=node;script=latn;language=DFLT;+tlig;+smcp;"
+. <->"LinuxLibertineO:mode=node;script=latn;language=DFLT;+pnum;+onum;+tlig;+smc
+p;"
 . - 'bold' (bx/n) with NFSS spec.:
-. <->"LinuxLibertineO/B:mode=node;script=latn;language=DFLT;+tlig;"
+. <->"LinuxLibertineO/B:mode=node;script=latn;language=DFLT;+pnum;+onum;+tlig;"
 . - 'bold small caps'  (bx/sc) with NFSS spec.:
-. <->"LinuxLibertineO/B:mode=node;script=latn;language=DFLT;+tlig;+smcp;"
+. <->"LinuxLibertineO/B:mode=node;script=latn;language=DFLT;+pnum;+onum;+tlig;+s
+mcp;"
 . - 'italic' (m/it) with NFSS spec.:
-. <->"LinuxLibertineO/I:mode=node;script=latn;language=DFLT;+tlig;"
+. <->"LinuxLibertineO/I:mode=node;script=latn;language=DFLT;+pnum;+onum;+tlig;"
 . - 'italic small caps'  (m/itsc) with NFSS spec.:
-. <->"LinuxLibertineO/I:mode=node;script=latn;language=DFLT;+tlig;+smcp;"
+. <->"LinuxLibertineO/I:mode=node;script=latn;language=DFLT;+pnum;+onum;+tlig;+s
+mcp;"
 . - 'bold italic' (bx/it) with NFSS spec.:
-. <->"LinuxLibertineO/BI:mode=node;script=latn;language=DFLT;+tlig;"
+. <->"LinuxLibertineO/BI:mode=node;script=latn;language=DFLT;+pnum;+onum;+tlig;"
+
 . - 'bold italic small caps'  (bx/itsc) with NFSS spec.:
-. <->"LinuxLibertineO/BI:mode=node;script=latn;language=DFLT;+tlig;+smcp;"
+. <->"LinuxLibertineO/BI:mode=node;script=latn;language=DFLT;+pnum;+onum;+tlig;+
+smcp;"
 .................................................
 LaTeX Info: Redefining \rmfamily on input line 6.
 
@@ -1603,18 +1608,19 @@ luaotfload | aux : no font with id 39
 . fontspec info: "defining-font"
 . 
 . Font family 'Formular-Regular(0)' created for font 'Formular-Regular' with
-. options [BoldFont = Formular-Bold.otf,ItalicFont = Formular-Light.otf].
+. options [Numbers={Proportional,OldStyle},BoldFont =
+. Formular-Bold.otf,ItalicFont = Formular-Light.otf].
 .  
 .  This font family consists of the following NFSS series/shapes:
 .  
 . - 'normal' (m/n) with NFSS spec.:
-. <->"Formular-Regular:mode=node;script=latn;language=DFLT;"
+. <->"Formular-Regular:mode=node;script=latn;language=DFLT;+pnum;+onum;"
 . - 'small caps'  (m/sc) with NFSS spec.: 
 . - 'bold' (bx/n) with NFSS spec.:
-. <->"Formular-Bold.otf:mode=node;script=latn;language=DFLT;"
+. <->"Formular-Bold.otf:mode=node;script=latn;language=DFLT;+pnum;+onum;"
 . - 'bold small caps'  (bx/sc) with NFSS spec.: 
 . - 'italic' (m/it) with NFSS spec.:
-. <->"Formular-Light.otf:mode=node;script=latn;language=DFLT;"
+. <->"Formular-Light.otf:mode=node;script=latn;language=DFLT;+pnum;+onum;"
 . - 'italic small caps'  (m/itsc) with NFSS spec.: 
 .................................................
 \g__fontspec_family_Formular-Light_int=\count357
@@ -1640,12 +1646,12 @@ luaotfload | aux : no font with id 41
 . fontspec info: "defining-font"
 . 
 . Font family 'Formular-Light(0)' created for font 'Formular-Light' with
-. options [Ligatures=TeX].
+. options [Numbers={Proportional,OldStyle},Ligatures=TeX].
 .  
 .  This font family consists of the following NFSS series/shapes:
 .  
 . - 'normal' (m/n) with NFSS spec.:
-. <->"Formular-Light:mode=node;script=latn;language=DFLT;+tlig;"
+. <->"Formular-Light:mode=node;script=latn;language=DFLT;+pnum;+onum;+tlig;"
 . - 'small caps'  (m/sc) with NFSS spec.: 
 .................................................
 LaTeX Info: Redefining \sffamily on input line 89.
@@ -1920,12 +1926,13 @@ luaotfload | aux : no font with id 56
 . fontspec info: "defining-font"
 . 
 . Font family 'Formular-LightItalic(0)' created for font
-. 'Formular-LightItalic' with options [SmallCapsFeatures={FakeSlant=0.6}].
+. 'Formular-LightItalic' with options
+. [Numbers={Proportional,OldStyle},SmallCapsFeatures={FakeSlant=0.6}].
 .  
 .  This font family consists of the following NFSS series/shapes:
 .  
 . - 'normal' (m/n) with NFSS spec.:
-. <->"Formular-LightItalic:mode=node;script=latn;language=DFLT;"
+. <->"Formular-LightItalic:mode=node;script=latn;language=DFLT;+pnum;+onum;"
 . - 'small caps'  (m/sc) with NFSS spec.: 
 .................................................
 Package microtype Info: Loading generic protrusion settings for font family
@@ -1962,12 +1969,12 @@ luaotfload | aux : no font with id 56
 . fontspec info: "defining-font"
 . 
 . Font family 'FormularLight-Italic(0)' created for font
-. 'FormularLight-Italic' with options [].
+. 'FormularLight-Italic' with options [Numbers={Proportional,OldStyle}].
 .  
 .  This font family consists of the following NFSS series/shapes:
 .  
 . - 'normal' (m/n) with NFSS spec.:
-. <->"FormularLight-Italic:mode=node;script=latn;language=DFLT;"
+. <->"FormularLight-Italic:mode=node;script=latn;language=DFLT;+pnum;+onum;"
 . - 'small caps'  (m/sc) with NFSS spec.: 
 .................................................
 Package microtype Info: Loading generic protrusion settings for font family
@@ -2008,13 +2015,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 264--270
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 336--339
-
- []
-
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 346.
+(Font)              <10.95> on input line 344.
 ) [7] [8] [9] [10] [11] [12] [13] [14] [15] [16] [17] [18] [19] [20] [21]
 [22] [23] [24] [25] [26] [27] [28] [29] [30] [31] [32] [33] [34] [35] [36]
 
@@ -2028,14 +2030,14 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Here is how much of LuaTeX's memory you used:
  25524 strings out of 494480
  476932,794899 words of node,token memory allocated
- 201574 words of node memory still in use:
-   4 hlist, 1 vlist, 1 rule, 85 glue, 1 penalty, 31040 glyph, 5838 attribute, 19
-4 glue_spec, 973 attribute_list, 3 shape, 3 write nodes
-   avail lists: 1:5,2:1250,3:954,4:330,5:1923,6:27330,7:6623,8:35,9:978,10:17,11
+ 201932 words of node memory still in use:
+   4 hlist, 1 vlist, 1 rule, 85 glue, 1 penalty, 31102 glyph, 5832 attribute, 19
+4 glue_spec, 972 attribute_list, 3 shape, 3 write nodes
+   avail lists: 1:8,2:1314,3:956,4:339,5:1922,6:27398,7:6627,8:35,9:979,10:17,11
 :2822
  28397 multiletter control sequences out of 65536+600000
  88 fonts using 16455655 bytes
- 54i,13n,69p,1369b,487s stack positions out of 5000i,500n,10000p,200000b,100000s
+ 54i,13n,85p,1369b,487s stack positions out of 5000i,500n,10000p,200000b,100000s
 </home/edlab/texmf/tex/fonts/Formular-LightItalic.otf></home/edlab/texmf/tex/fon
 ts/Formular-Light.otf></home/edlab/texmf/tex/fonts/Formular-Regular.otf></home/e
 dlab/texmf/tex/fonts/Formular-Bold.otf></usr/share/texlive/texmf-dist/fonts/open
@@ -2044,7 +2046,7 @@ opentype/public/libertine/LinLibertine_RB.otf></usr/share/texlive/texmf-dist/fon
 ts/opentype/public/libertine/LinLibertine_RI.otf></usr/share/texlive/texmf-dist/
 fonts/opentype/public/libertine/LinLibertine_R.otf></usr/share/texlive/texmf-dis
 t/fonts/type1/public/amsfonts/latxfont/lcirclew.pfb>
-Output written on LIVRO.pdf (37 pages, 127271 bytes).
+Output written on LIVRO.pdf (37 pages, 127493 bytes).
 
 PDF statistics: 181 PDF objects out of 1000 (max. 8388607)
  115 compressed objects within 2 object streams
