@@ -48,7 +48,7 @@ A. Artaud,
 \vspace*{0.5cm}
 
 \linhalayout{\emph{O clarão de Espinosa}}{}
-\linhalayout{\emph{Romain Rolland}}{}
+\linhalayout{Romain Rolland}{}
 \linha{título original}{\titulooriginal}
 {\tiny{©n-1 edições 2020}}
 
@@ -80,8 +80,8 @@ Portuguesa de 1990, em vigor no Brasil desde 2009.}\\
 \vfill\textit{Direitos reservados em l\'ingua\\ portuguesa somente para o Brasil}\\\medskip
 %%
 \textsc{n-1 edições}\\
-R.~Frei Caneca, 322 (cj 52)\\
-São Paulo-\textsc{sp}, Brasil\\
+R.~Fradique Coutinho, 1139\\
+05416--011 São Paulo \textsc{sp} Brasil\\
 \end{vplace}
 
 \endgroup
@@ -212,11 +212,35 @@ São Paulo-\textsc{sp}, Brasil\\
 } % fim do AtBeginDocument
 
 % Finais -------------------------------------------------------
-%\AtEndDocument{%
+\AtEndDocument{%
   %\publicidade
 %
-%\pagebreak\ifodd\thepage\paginabranca\fi
+\pagebreak\ifodd\thepage\paginabranca\fi
+\thispagestyle{empty}
+\movetooddpage
+\thispagestyle{empty}
+
+\vspace*{\fill}
+{\footnotesize\Formular\raggedright
+A ideia desta coleção Lampejos foi criar, para cada capa, um alfabeto diferente desenhado pelo artista Waldomiro Mugrelise. Entremear a singularidade dos textos de cada autor à invenção gráfica de um outro léxico e outra sintaxe.
+
+\bigskip
+
+“Todos os viajantes confirmaram: transformar o teclado do computador em mecanismo de fazer desenhos é a melhor solução para este projeto. A invenção de um dispositivo composicional além do léxico, quero dizer, anterior ao léxico, fará o leitor percorrer léguas de insensatas cacofonias, de confusões verbais e repetições que correspondem a idioma algum, por dialetal ou rudimentar que seja. A incoerência (inocorrência?) da palavra resulta em potencialidade gráfica infinita, um campo ilimitado para o desenho. Lucas compõe as capas a partir da tipologia fornecida por Waldomiro. Eu me visto de Waldomiro, diz ele. Ser meio para nenhum fim. As linhas caóticas da mão são capturadas e organizadas em um sistema que produz composições que o artista nunca criaria. Imagem é texto, como bem sabemos. Os livros, por diversos que sejam, constam de elementos iguais: o espaço, o ponto, a vírgula, as letras do alfabeto.” 
+
+\hfill{}{\italic{Leopardo Feline}}
+}
+\vspace*{\fill}
+
+\pagebreak\ifodd\thepage\paginabranca\fi
 %
+
+{\raggedright
+\includegraphics[width=.4\textwidth]{./logos.jpg}{}
+}
+
+\vspace*{5cm}
+}
 %\ifdef{\imagemficha}{\IfFileExists{\imagemficha}{\includegraphics[width=.7\textwidth]{\imagemficha%}\par}}{}
 %
 %\mbox{}\vfill\small\thispagestyle{empty}
